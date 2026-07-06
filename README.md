@@ -53,7 +53,7 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 
 ### 🟨 Gold 
 
-![BigQuery Gold](docs/biquery_gold.png)
+![BigQuery Gold](docs/bigquery_gold.png)
 
 - Ferramenta: BigQuery (Views)  
 

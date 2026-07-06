@@ -4,7 +4,6 @@ PROJECT_ID = "study-workspace-500319"
 BUCKET_NAME = "project-ecommerce"
 BUCKET_PREFIX = "data/bronze/"
 DATASET_ID = "project_ecommerce_silver" 
-client = bigquery.Client(project=PROJECT_ID)
 FILE_TABLE_MAP = {
     "olist_customers_dataset.csv": "tb_customers",
     "olist_geolocation_dataset.csv": "tb_geolocation",
@@ -14,7 +13,7 @@ FILE_TABLE_MAP = {
     "olist_products_dataset.csv": "tb_products",
     "olist_sellers_dataset.csv": "tb_sellers",
     "product_category_name_translation.csv": "tb_product_category"}
-
+client = bigquery.Client(project=PROJECT_ID)
 
 def ensure_dataset_exists():
     dataset_ref = bigquery.Dataset(f"{PROJECT_ID}.{DATASET_ID}")

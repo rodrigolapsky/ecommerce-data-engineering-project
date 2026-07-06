@@ -37,7 +37,7 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 
 ### 🟦 Silver 
 
-![BigQuery Silver](docs/silver.png)
+![BigQuery Silver](docs/bigquery_silver.png)
 
 - Ferramenta: BigQuery (tabelas) 
 - Tabelas estruturadas a partir dos CSVs  
@@ -53,7 +53,7 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 
 ### 🟨 Gold 
 
-![BigQuery Gold](docs/gold.png)
+![BigQuery Gold](docs/biquery_gold.png)
 
 - Ferramenta: BigQuery (Views)  
 

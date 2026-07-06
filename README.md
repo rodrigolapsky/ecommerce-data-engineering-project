@@ -24,6 +24,8 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 
 ### 🟫 Bronze 
 
+![Cloud Storage](docs/storage.png)
+
 - Armazenamento: Google Cloud Storage  
 - Formato: CSV (sem tratamento)  
 - Fonte: Kaggle API via Python  
@@ -34,6 +36,8 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 ---
 
 ### 🟦 Silver 
+
+![BigQuery Silver](docs/silver.png)
 
 - Ferramenta: BigQuery (tabelas) 
 - Tabelas estruturadas a partir dos CSVs  
@@ -48,6 +52,8 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 ---
 
 ### 🟨 Gold 
+
+![BigQuery Gold](docs/gold.png)
 
 - Ferramenta: BigQuery (Views)  
 

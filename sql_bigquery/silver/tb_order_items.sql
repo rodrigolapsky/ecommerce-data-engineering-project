@@ -15,5 +15,4 @@ WHERE NOT (
     AND seller_id IS NULL
     AND shipping_limit_date IS NULL
     AND price IS NULL
-    AND freight_value IS NULL
-);
+    AND freight_value IS NULL)

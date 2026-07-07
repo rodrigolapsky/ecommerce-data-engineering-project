@@ -10,7 +10,7 @@ O projeto foi desenvolvido com foco em **eficiência de custo**, utilizando serv
 
 ## 🧱 Arquitetura
 
-![Arquitetura](docs/arquitetura.png)
+![Arquitetura](docs/Arquitetura.png)
 
 ### 🔄 Fluxo de dados
 

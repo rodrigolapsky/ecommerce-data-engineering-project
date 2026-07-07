@@ -79,9 +79,9 @@ Kaggle → Python (Ingestion) → Cloud Storage (Bronze)
 
 ### 🔗 Relacionamentos
 
-- `vw_orders_fact.customer_id → vw_customers_dim.customer_id`  
-- `vw_orders_fact.product_id → vw_products_dim.product_id`  
-- `vw_orders_fact.order_id → vw_orders_status.order_id`  
+- `vw_orders.customer_id → vw_customers.customer_id`  
+- `vw_orders.product_id → vw_products.product_id`  
+- `vw_orders.order_id → vw_orders_status.order_id`  
 
 ---
 
